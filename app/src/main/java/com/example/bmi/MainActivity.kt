@@ -109,6 +109,8 @@ class MainActivity : AppCompatActivity() {
         outState?.putCharSequence("BMI",wylbmi.text)
         outState?.putCharSequence("DODATKOWY",dodatkowy.text)
         outState?.putInt("SWAPED",swaped)
+        outState?.putInt("AKT_M",aktmasa)
+        outState?.putInt("AKT_H",aktheight)
 
         super.onSaveInstanceState(outState)
     }
@@ -116,7 +118,9 @@ class MainActivity : AppCompatActivity() {
     override fun onRestoreInstanceState(savedInstanceState: Bundle?) {
         wylbmi.text= savedInstanceState?.getCharSequence("BMI")
         dodatkowy.text = savedInstanceState?.getCharSequence("DODATKOWY")
-        swaped = savedInstanceState?.getInt("SWAPED")!!
+        aktmasa = savedInstanceState?.getInt("AKT_M",1)!!
+        aktheight = savedInstanceState.getInt("AKT_H",1)
+        swaped = savedInstanceState.getInt("SWAPED")
         when(swaped){
             1 -> {
                 policzbmi.setOnClickListener{ v -> wyliczMnieToPoundInch(v) }
