@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="lorem_ipsum">\n\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec sapien risus.
+        Proin congue vehicula eros. Integer non lacinia nunc. Etiam sollicitudin diam in arcu volutpat vehicula.
+        Praesent a condimentum tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et dolor sed diam
+        consequat varius sit amet non sem. Nulla nisi leo, interdum at magna vel, lobortis vestibulum libero. Nulla
+        vitae augue in elit interdum viverra.
+        \n\tSed vitae gravida arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum
+        primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras pulvinar elit et neque tincidunt
+        facilisis. Quisque ac dolor sed lacus sodales dapibus. Integer eu metus a mauris rhoncus accumsan fringilla
+        luctus nisl. Suspendisse potenti. Nulla facilisi. Duis scelerisque, purus eget malesuada sagittis, orci massa
+        commodo dolor, non feugiat libero ligula at ex. Phasellus porta massa eget justo laoreet cursus. Curabitur
+        tempor pharetra arcu ac efficitur.
+        \n\tSed eget dictum dui. Nam euismod fermentum magna, id dictum diam accumsan a. Curabitur nec placerat justo,
+        ut dignissim purus. Ut pharetra libero eu sem interdum venenatis. Pellentesque ullamcorper blandit tortor ut
+        condimentum. Morbi felis nibh, rutrum vitae odio a, egestas pulvinar massa. Suspendisse varius dui quis auctor
+        maximus. Morbi tristique euismod nunc, ut hendrerit nisi auctor quis. Suspendisse at aliquet est. Nunc blandit
+        ac arcu ac commodo. Ut vitae est nulla. Etiam nulla elit, scelerisque id blandit non, egestas at odio. Etiam
+        ipsum lacus, venenatis non commodo sit amet, mattis eget elit. Cras fermentum consequat leo, ac tincidunt elit.
+        \n\tVivamus sit amet elit vitae leo interdum tincidunt at non ipsum. Vestibulum varius, nibh nec consectetur
+        tempor, nunc libero vehicula elit, sed suscipit felis sapien a arcu. Fusce mauris orci, bibendum ac ipsum a,
+        venenatis egestas sapien. Nam a rutrum magna. Nam at posuere orci, sed pharetra eros. Praesent interdum velit
+        vel nisi lacinia faucibus. Pellentesque aliquam sem non risus bibendum, eget finibus justo accumsan. Nunc odio
+        nisi, volutpat ut congue non, vulputate ut mi. Sed in risus ex. Quisque posuere dui vitae lectus dignissim
+        tristique. Vivamus faucibus nulla ac commodo vulputate. Donec in lacus finibus, vestibulum velit quis, mattis
+        metus.
+    </string>
+
+
+    <string name="bmi_wyglodzenie">Wygłodzenie</string>
+    <string name="bmi_wychudzenie">Wychudzenie</string>
+    <string name="bmi_niedowaga">Niedowaga</string>
+    <string name="bmi_norma">Norma</string>
+    <string name="bmi_nadwaga">Nadwaga</string>
+    <string name="bmi_IstOtyl">I stopień otyłości</string>
+    <string name="bmi_IIstOtyl">II stopień otyłości</string>
+    <string name="bmi_IIIstOtyl">III stopień otyłości</string>
+
+
+    <string name="bmi_main_mass_kg">Mass[kg]\t</string>
+    <string name="bmi_main_height_cm">Height[cm]\t</string>
+    <string name="bmi_main_mass_lb">Mass[lb]\t</string>
+    <string name="bmi_main_height_in">Height[in]\t</string>
+
+
+
+    <string name="bmi_about_Title">About Me</string>
+    <string name="bmi_info_Title">Info</string>
+    <string name="bmi_history_Title">Historia</string>
+
+    <string name="bmi_main_BMI">BMI\t</string>
+    <string name="bmi_main_dodatkowy">DODATKOWY</string>
+    <string name="bmi_main_massInt">MASSINT</string>
+    <string name="bmi_main_heightInt">HEIGHTINT</string>
+
+    <string name="bmi_main_countbut">Count</string>
+    <string name="bmi_main_brakbmi">Najpierw oblicz bmi</string>
+    <string name="bmi_main_brakwagi">Wprowadź wagę</string>
+    <string name="bmi_main_brakwzrostu">Wprowadź wzrost</string>
+    <string name="bmi_main_ograniczeniewaga">Waga musi pomiędzy 0-</string>
+    <string name="bmi_main_ograniczeniewzrost">Wzrost musi pomiędzy 0-</string>
+    <string name="bmi_main_about_swapped">Swapped</string>
+
+    <string name="bmi_info_wersja">Wersja: 1.0 Aktualnie nieaktualizowana</string>
+    <string name="bmi_info_lorembut">Lorem Ipsum</string>
+
+    <string name="bmi_about_txtWitaj">Witaj w About Me aplikacji BMI Rok stworzenia 2019</string>
+    <string name="bmi_about_pokazWiecejbut">Pokaż więcej</string>
+
+    <string name="bmi_history_txt">Ostatnie 10 wyliczonych BMI</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="st_tropaz">#26619C</color> //lapis lazuli
+    <color name="amethyst">#9C3CC5</color>
+    <color name="verdigris">#5D5E37</color> //grynszpan
+    <color name="trinidad">#EB3B04</color>
+    <color name="guardsman_red">#b80000</color>
+    //róż pompejański
+    /#3366cc inny lapis
+    //#00A693 inny grynszpan
+
+
+    <color name="claret">#7A0F28</color>
+    <color name="gamboge">#E79408</color>
+
+</resources>

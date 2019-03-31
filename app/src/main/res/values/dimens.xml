@@ -1,0 +1,31 @@
+<resources>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="bmi_margintop_elem">16dp</dimen>
+    <dimen name="bmi_marginLR_elem">8dp</dimen>
+
+
+
+    <dimen name="bmi_wid_txt">113dp</dimen>
+    <dimen name="bmi_height_txt">38dp</dimen>
+    <dimen name="bmi_height_edittext">38dp</dimen>
+    <dimen name="bmi_height_bmitxt">58dp</dimen>
+    <dimen name="bmi_wid_bmitxt">250dp</dimen>
+    <dimen name="bmi_wid_extratxt">313dp</dimen>
+    <dimen name="bmi_height_countbmibut">50dp</dimen>
+    <dimen name="bmi_wid_infobut">83dp</dimen>
+
+    <dimen name="bmi_wid_image">432dp</dimen>
+    <dimen name="bmi_height_image">180dp</dimen>
+
+    <dimen name="bmi_hight_aboutelem">62dp</dimen>
+    <dimen name="bmi_wid_aboutelem">190dp</dimen>
+
+    <dimen name="bmi_height_infoelem">96dp</dimen>
+    <dimen name="bmi_height_infoscroll">350dp</dimen>
+
+
+    <dimen name="bmi_txtSize_txt">18sp</dimen>
+    <dimen name="bmi_txtSize_bmitxt">42sp</dimen>
+
+</resources>

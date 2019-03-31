@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".InfoActivity">
+
+    <TextView
+            android:text=""
+            android:layout_width="@dimen/bmi_wid_aboutelem"
+            android:layout_height="@dimen/bmi_height_infoelem" android:id="@+id/zpaki" android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/bmi_marginLR_elem" android:layout_marginTop="@dimen/bmi_margintop_elem" android:layout_alignParentTop="true"
+            android:textAlignment="center"/>
+    <Button
+            android:text="@string/bmi_info_lorembut"
+            android:layout_width="@dimen/bmi_wid_aboutelem"
+            android:layout_height="@dimen/bmi_height_infoelem" android:id="@+id/LIbut"
+            android:layout_marginTop="@dimen/bmi_margintop_elem" android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="@dimen/bmi_marginLR_elem" android:background="@color/claret"
+            android:textColor="@color/gamboge" android:layout_toEndOf="@+id/zpaki"
+            android:layout_marginStart="@dimen/bmi_marginLR_elem" android:onClick="loremIpsum"/>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bmi_height_infoscroll" android:layout_alignParentStart="true" android:layout_marginStart="@dimen/bmi_marginLR_elem"
+            android:layout_marginTop="@dimen/bmi_margintop_elem" android:layout_below="@+id/zpaki" android:fillViewport="true"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="@dimen/bmi_marginLR_elem">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/LItxt"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
